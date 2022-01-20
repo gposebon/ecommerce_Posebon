@@ -1,0 +1,427 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.divCabera {
+    width: 100%;
+}
+
+.divHr {
+    width: 100%;
+}
+
+/* NAV */
+nav {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+
+a{
+    color: white;
+    font-size:14px;
+    } 
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    }
+
+ul li {
+    display:inline-block;
+    padding:5px 10px;
+    text-align:center;
+    color:#fff;
+    }
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorPresentacion {
+    width: 100%;
+    display: flex;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and ( max-width: 600px) {
+
+    /* HEADER */
+
+    .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        visibility: hidden;
+    }
+
+    .divTitulo { 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenedorGeneralProdDestacados {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nombreProducto {
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .precio {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .link {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .link a {
+        color: black;
+        font-size: 15px;
+    }
+    
+    .cantidad {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 50%;
+    }
+
+    .tituloProductosDestacado {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+    }
+
+    .tituloProductosDestacado h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .productosDestacados {
+        border: solid 1px black;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}
+
+@media only screen and ( min-width: 600px) {
+
+     /* HEADER */
+
+     .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        visibility: hidden;
+    }
+
+    .divTitulo { 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenedorGeneralProdDestacados {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nombreProducto {
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .precio {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .link {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .link a {
+        color: black;
+        font-size: 15px;
+    }
+    
+    .cantidad {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 50%;
+    }
+
+    .tituloProductosDestacado {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+    }
+
+    .tituloProductosDestacado h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .productosDestacados {
+        border: solid 1px black;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}
+
+
+@media only screen and ( min-width: 992px) {
+
+      /* HEADER */
+
+      .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        width: 20%
+    }
+
+    .divTitulo { 
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenedorGeneralProdDestacados {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .prueba {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .nombreProducto {
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .precio {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .link {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .link a {
+        color: black;
+        font-size: 15px;
+    }
+    
+    .cantidad {
+        width: 100%;
+    }
+
+    .card-img {
+        width: auto;
+        height: auto;
+    }
+    .tituloProductosDestacado {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+    }
+
+    .tituloProductosDestacado h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .productosDestacados {
+        border: solid 1px black;
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}

@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.divCabera {
+    width: 100%;
+}
+
+.divHr {
+    width: 100%;
+}
+
+/* NAV */
+nav {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+
+a{
+    color: white;
+    font-size:14px;
+    } 
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    }
+
+ul li {
+    display:inline-block;
+    padding:5px 10px;
+    text-align:center;
+    color:#fff;
+    }
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorPresentacion {
+    width: 100%;
+    display: flex;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and ( max-width: 600px) {
+
+    /* HEADER */
+
+    .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        visibility: hidden;
+    }
+
+    .divTitulo { 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedorLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .contenedorDivLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    input {
+        width: 50%;
+    }
+    
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}
+
+@media only screen and ( min-width: 600px) {
+
+      /* HEADER */
+
+    .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        visibility: hidden;
+    }
+
+    .divTitulo { 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedorLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .contenedorDivLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    input {
+        width: 50%;
+    }
+    
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}
+
+
+@media only screen and ( min-width: 992px) {
+
+     /* HEADER */
+
+     .cabecera {
+        width: 100%;
+        display: flex;
+    }
+
+    .divLogo {
+        width: 20%;
+    }
+
+    .divTitulo { 
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divTitulo h1 {
+        width: 100%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .divTitulo h2 { 
+        width: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .divLogin {
+        width: 30%;
+    }
+
+    /* MAIN */
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedorLogin {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 20px;
+    }
+    
+    .contenedorDivLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    input {
+        width: 50%;
+    }
+    
+
+    .contenedorFooter {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .contenedorRedes {
+        width: 90%;
+    }
+}
+
+
